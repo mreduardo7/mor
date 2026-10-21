@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d35">
+  <meta name="description" content="Um pequeno universo de enrolados, um dos seus desenhos favoritos, feito especialmente para você.">
+
+  <title>Nosso Reino de Lanternas ✨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="intro" class="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle">
+    <div class="intro-glow"></div>
+    <div class="intro-content">
+      <span class="intro-crown">✦</span>
+      <p class="eyebrow">UMA HISTÓRIA ESPECIALMENTE PARA VOCÊ</p>
+      <h1 id="introTitle">Era uma vez...</h1>
+      <p class="intro-description">
+        Para todo sempre nós dois minha eterna princesinha.
+      </p>
+      <button id="startBtn" class="button button-gold">
+        Descobrir nossa história <span>♡</span>
+      </button>
+      <p class="intro-small">Feito com amor, para a minha princesa.</p>
+    </div>
+    <div class="intro-bottom">✧ ✦ ✧</div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">Nosso Reino <span>♡</span></a>
+
+    <button id="menuBtn" class="menu-toggle" aria-label="Abrir menu"
+      aria-expanded="false">☰</button>
+
+    <nav id="navMenu" class="nav-menu">
+      <a href="#inicio">Início</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#carta">Minha carta</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#fe">Nossa fé</a>
+    </nav>
+
+    <button id="musicToggle" class="music-toggle" aria-label="Mostrar ou esconder o player do Spotify" aria-expanded="true">
+      <span id="musicIcon">♫</span>
+      <span id="musicLabel">Nossa música</span>
+    </button>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div id="lanternSky" class="lantern-sky" aria-hidden="true"></div>
+      <div class="hero-stars" id="heroStars" aria-hidden="true"></div>
+      <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">PARA A MINHA ETERNA COMPANHEIRA</p>
+        <h1>Você é a minha<br><span>parte favorita</span><br>da história.</h1>
+        <p class="hero-text">
+          Entre tantas pessoas, caminhos e possibilidades, que presente
+          é poder viver uma história com você.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#historia" class="button button-gold">Nossa história ✨</a>
+          <button id="wishBtn" class="button button-glass">Soltar uma lanterna 🏮</button>
+        </div>
+
+        <div class="hero-signature">Com amor, para sempre. ♡</div>
+      </div>
+
+      <a href="#historia" class="scroll-cue">
+        <span>DESCUBRA O NOSSO MUNDO</span>
+        <span class="scroll-arrow">↓</span>
+      </a>
+    </section>
+
+    <section class="quote-strip">
+      <span class="quote-decoration">✧</span>
+      <p>Algumas histórias são tão especiais que merecem um universo inteiro.</p>
+      <span class="quote-decoration">✧</span>
+    </section>
+
+    <section id="historia" class="section story-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CAPÍTULO I · O COMEÇO DE TUDO</p>
+        <h2>O nosso <span>felizes para sempre</span></h2>
+        <p>
+          Se a nossa história fosse um livro, essas seriam algumas
+          das páginas que eu guardaria para sempre.
+        </p>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card reveal">
+          <div class="story-icon">🌷</div>
+          <span class="card-number">01 · O ENCONTRO</span>
+          <h3>Quando tudo começou</h3>
+          <p>
+            desde q te vi pela primeira vez, la em 2023, a nossa historia ja era planos de Deus, precisamos se afastar para nos reencontrar mais em mesmo nas historias mais lindas existem virgula.
+
+          </p>
+          <span class="card-foot">O começo da nossa história ♡</span>
+        </article>
+
+        <article class="story-card story-card-featured reveal">
+          <div class="story-icon">🏮</div>
+          <span class="card-number">02 · NÓS DOIS</span>
+          <h3>Minha pessoa favorita</h3>
+          <p>
+            Não quero guardar apenas os grandes momentos.
+            Quero os dias comuns, as conversas bobas, as risadas,
+            os abraços e a alegria de ter você por perto.
+          </p>
+          <span class="card-foot">Você faz parte dos meus dias.</span>
+        </article>
+
+        <article class="story-card reveal">
+          <div class="story-icon">🌟</div>
+          <span class="card-number">03 · O AMANHÃ</span>
+          <h3>Os sonhos que virão</h3>
+          <p>
+            Ainda temos tantas coisas para viver, tantos lugares para
+            conhecer e tantas memórias para construir.
+            Quero continuar escrevendo os próximos capítulos com você.
+          </p>
+          <span class="card-foot">Nossa história continua...</span>
+        </article>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <span class="timeline-dot">♡</span>
+          <div>
+            <span class="timeline-label">UMA LEMBRANÇA</span>
+            <h3>O dia em que demos o primeiro beijo.</h3>
+            <p>O dia que meu coração palpitou como nunca antes,</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot">✧</span>
+          <div>
+            <span class="timeline-label">UM MOMENTO ESPECIAL</span>
+            <h3>Um dia que eu repetiria mil vezes</h3>
+            <p>O dia que te entreguei o buquê de lírios,</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot">∞</span>
+          <div>
+            <span class="timeline-label">O QUE AINDA VEM</span>
+            <h3>Uma história em construção</h3>
+            <p>O próximo capítulo ainda será escrito por nós dois.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lantern-banner">
+      <div id="bannerLanterns" class="banner-lanterns" aria-hidden="true"></div>
+      <div class="banner-particles" id="bannerParticles" aria-hidden="true"></div>
+      <div class="banner-content reveal">
+        <span class="banner-symbol">☼</span>
+        <p class="eyebrow">UM PEDACINHO DO NOSSO CONTO DE FADAS</p>
+        <h2>Se eu pudesse pedir um desejo...</h2>
+        <p>
+          Pediria a Deus sabedoria para amar você com paciência,
+          cuidar do nosso relacionamento e continuar crescendo ao seu lado.
+        </p>
+        <button id="bannerWishBtn" class="button button-outline">
+          Fazer um desejo juntos ✨
+        </button>
+      </div>
+    </section>
+
+    <section id="carta" class="section letter-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CAPÍTULO II · PALAVRAS DO CORAÇÃO</p>
+        <h2>Uma carta <span>para você</span></h2>
+        <p>Algumas coisas merecem ser lidas devagar.</p>
+      </div>
+
+      <div class="letter-envelope reveal">
+        <div class="envelope-top">♡</div>
+        <div class="letter-paper">
+          <span class="letter-date">ESCRITO COM AMOR</span>
+          <h3>Para a minha princesa...</h3>
+
+          <p id="letterPreview">
+            Preparei um cantinho especial para colocar tudo aquilo
+            que meu coração deseja dizer a você.
+          </p>
+
+          <button id="openLetterBtn" class="button button-dark">
+            Abrir minha carta 💌
+          </button>
+        </div>
+        <span class="letter-flower flower-one">✿</span>
+        <span class="letter-flower flower-two">✿</span>
+      </div>
+
+      <div id="letterModal" class="modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-letter></div>
+        <article class="modal-card letter-modal-card" role="dialog"
+          aria-modal="true" aria-labelledby="modalLetterTitle">
+          <button class="modal-close" data-close-letter aria-label="Fechar carta">×</button>
+          <span class="modal-flower">✿</span>
+          <p class="eyebrow">UMA CARTA SÓ SUA</p>
+          <h2 id="modalLetterTitle">Minha princesa ♡</h2>
+          <div id="letterContent" class="letter-content">,,
+            <!-- SUA MENSAGEM ENTRA AQUI PELO SCRIPT.JS -->
+          </div>
+          <p class="letter-end">Com todo o meu amor. ♡</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CAPÍTULO III · NOSSAS MEMÓRIAS</p>
+        <h2>Nosso pequeno <span>museu de amor</span></h2>
+        <p>
+          Cada foto guarda um pedacinho de uma história que só nós
+          dois conhecemos.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="photo-card photo-tall reveal" data-photo="0">
+          <img src="fotos/foto1.jpg" alt="Nossa primeira lembrança"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 01</small>Minha paz em meio as turbulências.</span>
+        </button>
+
+        <button class="photo-card reveal" data-photo="1">
+          <img src="fotos/foto2.jpg" alt="Um momento especial nosso"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 02</small>Cada momento com você é inexplicável.</span>
+        </button>
+
+        <button class="photo-card reveal" data-photo="2">
+          <img src="fotos/foto3.jpg" alt="Uma lembrança feliz do casal"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 03</small>Meu lírio favorito.</span>
+        </button>
+
+        <button class="photo-card reveal" data-photo="3">
+          <img src="fotos/foto4.jpg" alt="Uma foto nossa"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 04</small>Seu sorriso me faz sentir vivo.</span>
+        </button>
+
+        <button class="photo-card photo-wide reveal" data-photo="4">
+          <img src="fotos/foto5.jpg" alt="Mais uma lembrança do casal"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 05</small>A pessoa que me fez amar como nunca.</span>
+        </button>
+
+        <button class="photo-card reveal" data-photo="5">
+          <img src="fotos/foto6.jpg" alt="Uma lembrança para guardar"
+            loading="lazy">
+          <span class="photo-shade"></span>
+          <span class="photo-caption"><small>MEMÓRIA Nº 06</small>Eu te amo incondicionalmente.</span>
+        </button>
+      </div>
+
+      <p class="gallery-note">Cada imagem é uma lembrança. Cada lembrança, um pedacinho de nós.</p>
+
+      <div id="photoModal" class="modal photo-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-photo></div>
+        <div class="photo-modal-inner" role="dialog" aria-modal="true"
+          aria-label="Foto da galeria">
+          <button class="modal-close photo-close" data-close-photo
+            aria-label="Fechar foto">×</button>
+          <button id="prevPhoto" class="photo-nav photo-prev" aria-label="Foto anterior">‹</button>
+          <img id="expandedPhoto" src="" alt="Foto ampliada">
+          <button id="nextPhoto" class="photo-nav photo-next" aria-label="Próxima foto">›</button>
+          <p id="expandedCaption"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fe" class="section faith-section">
+      <div class="faith-glow"></div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">CAPÍTULO IV · DEUS NO CENTRO</p>
+        <h2>O amor também é <span>uma oração</span></h2>
+        <p>
+          Mais do que sonhar com um futuro bonito, quero aprender a
+          construir um relacionamento que honre a Deus.
+        </p>
+      </div>
+
+      <div class="verse-card reveal">
+        <span class="verse-cross">✝</span>
+        <p class="verse-reference">1 CORÍNTIOS 13:4–7</p>
+        <blockquote>
+          O amor é paciente, o amor é bondoso.
+          Não inveja, não se vangloria, não se orgulha.
+          Tudo sofre, tudo crê, tudo espera, tudo suporta.
+        </blockquote>
+        <span class="verse-decoration">✧ ✧ ✧</span>
+      </div>
+
+      <div class="faith-promises reveal">
+        <div><span>♡</span><p>Amar com paciência</p></div>
+        <div><span>✧</span><p>Crescer na fé</p></div>
+        <div><span>∞</span><p>Orar um pelo outro</p></div>
+      </div>
+
+      <p class="faith-footer reveal">
+        Que Deus nos ensine a amar não apenas com palavras,
+        mas também com atitudes. 🤍
+      </p>
+    </section>
+
+    <section class="promise-section">
+      <div class="promise-card reveal">
+        <span class="promise-star">✦</span>
+        <p class="eyebrow">UM ÚLTIMO CAPÍTULO? NUNCA.</p>
+        <h2>Ainda temos tantas <span>páginas em branco.</span></h2>
+        <p>
+          Este site guarda algumas palavras e lembranças.
+          Mas o melhor da nossa história não está aqui dentro.
+          Está em tudo aquilo que ainda vamos viver.
+        </p>
+        <button id="finalBtn" class="button button-gold">
+          Uma última surpresa ♡
+        </button>
+        <p id="finalMessage" class="final-message" hidden>
+          Se eu pudesse escolher de novo, ainda gostaria de conhecer você,
+          cuidar de você e construir novas lembranças ao seu lado.
+          Que Deus guie os nossos passos. Eu te amo! 💜
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-lantern">🏮</div>
+    <p class="footer-title">Nosso Reino de Lanternas</p>
+    <p>Uma história de amor, fé e sonhos compartilhados.</p>
+    <p class="footer-small">Feito especialmente para você, com amor. ♡</p>
+    <a href="#inicio" class="back-top">Voltar ao início ↑</a>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Player do Spotify. Troque o endereço pelo da música escolhida. -->
+  <div class="spotify-player" id="spotifyPlayer">
+    <iframe
+      id="spotifyFrame"
+      title="Nossa música no Spotify"
+      src="https://open.spotify.com/embed/track/22z6jL8vVzG7sZEmqKukCZ"
+      
+      width="100%" height="80"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+  </div>
+
+</body>
+</html>
